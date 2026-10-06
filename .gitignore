@@ -1,0 +1,20 @@
+backend/src/main/resources/application.properties
+
+# IDE metadata
+.idea/
+.vscode/
+
+# Dependencies and generated build output
+**/node_modules/
+**/target/
+client/dist/
+coverage/
+
+# Local secrets and environment files
+**/.env
+!**/.env.sample
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
